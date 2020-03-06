@@ -10,7 +10,7 @@ export default class RegisterScreen extends Component {
 
   render() {
     return (
-      <View>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text> RegisterScreen </Text>
       </View>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import HomeScreen from './src/HomeScreen';
+import AppNavigator from './src/AppNavigator';
+
 
 export default class App extends Component {
   constructor(props) {
@@ -11,9 +12,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <View>
-        <HomeScreen/>
-      </View>
+        <AppNavigator />
     );
   }
 }
